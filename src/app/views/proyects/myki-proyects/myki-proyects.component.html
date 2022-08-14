@@ -1,0 +1,32 @@
+<div class="container-fluid">
+  <h2 class="display-1">proyectos</h2>
+  <div
+    class="justify-content-center row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-0"
+  >
+    <div
+      class="card text-bg-light border-secondary my-3 mx-3"
+      style="max-width: 540px"
+      *ngFor="let app of appList"
+    >
+      <div class="row g-0">
+        <div class="col-md-7">
+          <img
+            src="{{ app.img }}"
+            class="img-fluid img-profile"
+            alt="{{ app.name }} banner"
+          />
+        </div>
+        <div class="col-md-5">
+          <div class="card-header">
+            <a href="{{ app.url }}"
+              >{{ app.name }}</a
+            >
+          </div>
+          <div class="card-body">
+            <p class="card-text bio text-muted">{{ app.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
