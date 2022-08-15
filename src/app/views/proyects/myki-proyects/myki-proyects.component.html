@@ -9,10 +9,10 @@
       *ngFor="let app of appList"
     >
       <div class="row g-0">
-        <div class="col-md-7">
+        <div class="col-md-7 align-self-center">
           <img
             src="{{ app.img }}"
-            class="img-fluid img-profile"
+            class="img-fluid "
             alt="{{ app.name }} banner"
           />
         </div>
@@ -23,7 +23,7 @@
             >
           </div>
           <div class="card-body">
-            <p class="card-text bio text-muted">{{ app.description }}</p>
+            <p class="card-text bio">{{ app.description }}</p>
           </div>
         </div>
       </div>

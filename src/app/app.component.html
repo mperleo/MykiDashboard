@@ -1,28 +1,28 @@
-<div class="row">
+<div class="row m-0 g-0 p-0">
   <!-- Toolbar -->
-  <div class="toolbar col-2 headerMyki" role="banner" style="height: 100vh;">
-    <div class="row d-flex flex-row">
-      <div class="justify-content-center">
-        <div class="col-12">
-          <a class="text-vertical" routerLink="/about"><h1 class="satine">MYKI STUDIO</h1></a>
-        </div>
-        <div class="col-12 box-mas">
-          <a class="boton-mas" routerLink="/proyects">Proyectos</a>
-        </div>
-        <div class="col-12 box-mas">
-          <a class="boton-mas" routerLink="/resources">recursos</a>
-        </div>
-        <div class="col-12 box-mas">
-          <a class="boton-mas" routerLink="/about">Quien soy</a>
-        </div>
-        <div class="col-12 mt-5">
-          <div class="row justify-content-center">
-            <a class="box-redes" href="https://twitter.com/_myki99" role="button">
-              <i class="fab fa-twitter boton-redes"></i>
-            </a>
-            <a class="box-redes" href="https://www.instagram.com/myki_99/" role="button">
-              <i class="fab fa-instagram boton-redes"></i>
-            </a></div>
+    <div class="col-md-12 col-lg-2 headerMyki m-0 px-0" role="banner" >
+        <div class="justify-content-center">
+          <div>
+            <a class="{{atitleClass}}" routerLink="/about" role="button"><h1 class="{{titleClass}}">MYKI STUDIO</h1></a>
+          </div>
+          <div class="box-mas">
+            <a class="boton-mas fs-3 " routerLink="/proyects" role="button"><span class="display-6">Proyectos</span></a>
+          </div>
+          <div class="box-mas">
+            <a class="boton-mas fs-3" routerLink="/resources" role="button">recursos</a>
+          </div>
+          <div class="box-mas">
+            <a class="boton-mas fs-3" routerLink="/about" role="button">Quien soy</a>
+          </div>
+          <div class="mt-5">
+            <div class="row justify-content-center">
+              <a class="box-redes" href="https://twitter.com/_myki99" role="button">
+                <i class="fab fa-twitter boton-redes"></i>
+              </a>
+              <a class="box-redes" href="https://www.instagram.com/myki_99/" role="button">
+                <i class="fab fa-instagram boton-redes"></i>
+              </a>
+            </div>
             <div class="row justify-content-center">
               <a class="box-redes" href="https://www.youtube.com/channel/UCUeqOdBIARGBeaIcxmflefQ" role="button">
                 <i class="fab fa-youtube boton-redes"></i>
@@ -39,14 +39,13 @@
                 <i class="fab fa-github boton-redes"></i>
               </a>
             </div>
-        </div>
+          </div>
       </div>
     </div>
-  </div>
 
-  <div class="content col-10" role="main">
-    <div class="col-12" style="overflow: auto; height: 95vh; margin-top: 2vh">
-      <router-outlet></router-outlet>
+    <div class="col-lg-10 col-md-12" role="main">
+      <div class="px-3" style="overflow-y: auto; height: 100vh">
+        <router-outlet></router-outlet>
+      </div>
     </div>
-  </div>
 </div>
