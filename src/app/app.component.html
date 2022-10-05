@@ -8,24 +8,36 @@
       <div class="col-md-12 col-lg-2 headerMyki m-0 px-0" role="banner" >
         <div class="justify-content-center">
           <img class="img-profile" src="assets/img/profile_2.jpg" /><br /><br />
-          <div  *ngIf="activeTab != 'proyects'" class="box-mas">
-            <a class="boton-mas fs-3" routerLink="/proyects" role="button" (click)="onLinkClicked('proyects')" ><span class="display-6">Proyectos</span></a>
-          </div>
-          <div *ngIf="activeTab === 'proyects'" class="box-mas-active">
-            <a class="boton-mas-active fs-3" routerLink="/proyects" role="button" (click)="onLinkClicked('proyects')" ><span class="display-6">Proyectos</span></a>
-          </div>
-          <div  *ngIf="activeTab != 'resources'" class="box-mas">
-            <a class="boton-mas fs-3" routerLink="/resources" role="button" (click)="onLinkClicked('resources')"><span class="display-6">diseños</span></a>
-          </div>
-          <div *ngIf="activeTab === 'resources'" class="box-mas-active">
-            <a class="boton-mas-active fs-3" routerLink="/resources" role="button" (click)="onLinkClicked('resources')"><span class="display-6">diseños</span></a>
-          </div>
-          <div  *ngIf="activeTab != 'about'" class="box-mas">
-            <a class="boton-mas fs-3" routerLink="/about" role="button" (click)="onLinkClicked('about')"><span class="display-6">quien soy</span></a>
-          </div>
-          <div *ngIf="activeTab === 'about'" class="box-mas-active">
-            <a class="boton-mas-active fs-3" routerLink="/about" role="button" (click)="onLinkClicked('about')"><span class="display-6">quien soy</span></a>
-          </div>
+          <a *ngIf="activeTab != 'proyects'" class="boton-mas fs-3" routerLink="/proyects" role="button" (click)="onLinkClicked('proyects')">
+            <div class="box-mas mb-2">
+              <span class="display-6">Proyectos</span>
+            </div>   
+          </a>
+          <a *ngIf="activeTab === 'proyects'" class="boton-mas-active fs-3" routerLink="/proyects" role="button" (click)="onLinkClicked('proyects')">
+            <div class="box-mas-active mb-2">
+              <span class="display-6">Proyectos</span>
+            </div>   
+          </a>
+          <a *ngIf="activeTab != 'resources'" class="boton-mas fs-3" routerLink="/resources" role="button" (click)="onLinkClicked('resources')">
+            <div class="box-mas mb-2">
+              <span class="display-6">diseños</span>
+            </div>   
+          </a>
+          <a *ngIf="activeTab === 'resources'" class="boton-mas-active fs-3" routerLink="/resources" role="button" (click)="onLinkClicked('resources')">
+            <div class="box-mas-active mb-2">
+              <span class="display-6">diseños</span>
+            </div>   
+          </a>
+          <a *ngIf="activeTab != 'about'" class="boton-mas fs-3" routerLink="/about" role="button" (click)="onLinkClicked('about')">
+            <div class="box-mas mb-2">
+              <span class="display-6">Quien soy</span>
+            </div>   
+          </a>
+          <a *ngIf="activeTab === 'about'" class="boton-mas-active fs-3" routerLink="/about" role="button" (click)="onLinkClicked('about')">
+            <div class="box-mas-active mb-2">
+              <span class="display-6">Quien soy</span>
+            </div>   
+          </a>
         </div>
       </div>
 
@@ -41,9 +53,6 @@
         <p class="bio silkscreen">Designed by <u>MykiStudio.</u></p>
       </div>
       <div class="col-md-4 col-sm-12 row justify-content-end">
-        <a class="box-redes" href="https://twitter.com/_myki99" role="button">
-          <i class="fab fa-twitter boton-redes"></i>
-        </a>
         <a class="box-redes" href="https://www.instagram.com/myki_99/" role="button">
           <i class="fab fa-instagram boton-redes"></i>
         </a>
@@ -63,3 +72,5 @@
         
     </footer>
 </div>
+
+<ng-template></ng-template>
