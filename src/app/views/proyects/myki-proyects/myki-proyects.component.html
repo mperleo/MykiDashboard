@@ -1,30 +1,31 @@
-<div class="container-fluid">
-  <h2 class="display-1">proyectos</h2>
+<div>
+  <h2 class="display-1 subtitle-box m-0 py-0">proyectos</h2>
   <div
-    class="justify-content-center row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-0"
+    class="justify-content-center row row-cols-lg-3 row-cols-md-3 row-cols-sm-2 g-0"
   >
     <div
-      class="card text-bg-light border-secondary my-3 mx-3"
+      class="my-3 mx-3 border-card"
       style="max-width: 540px"
       *ngFor="let app of appList"
     >
-      <div class="row g-0">
-        <div class="col-md-7 align-self-center">
+      <div class="row g-0 border-card">
+        <div class="col-md-7 align-self-center border-card-img">
           <img
             src="{{ app.img }}"
-            class="img-fluid "
+            class="img-fluid text-bg-light "
             alt="{{ app.name }} banner"
           />
         </div>
         <div class="col-md-5">
-          <div class="card-header">
-            <a href="{{ app.url }}"
-              >{{ app.name }}</a
-            >
+          <div>
+            <div class="border-title">
+              <a class="a-underline" href="{{ app.url }}"><span class="a-text">{{ app.name }}</span></a>
+            </div>
+            <div>
+              <p class="card-text bio">{{ app.description }}</p>
+            </div>
           </div>
-          <div class="card-body">
-            <p class="card-text bio">{{ app.description }}</p>
-          </div>
+          
         </div>
       </div>
     </div>
