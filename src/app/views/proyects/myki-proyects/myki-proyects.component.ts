@@ -11,31 +11,31 @@ export class MykiProyectsComponent implements OnInit {
   public appList: AppModel[] = [
     {
       name: 'Costos',
-      url: 'http://localhost/Costos',
+      url: 'http://90.69.40.18/Costos',
       img: 'assets/img/costos_banner.png',
       description: 'Aplicación de fiananzas personales',
     },
     {
       name: 'Droppper',
-      url: 'http://localhost/Droppper',
+      url: 'http://90.69.40.18/Droppper',
       img: 'assets/img/droppper_banner.png',
       description: 'Aplicación para subir ficheros a mi servidor',
     },
     {
       name: 'Bingo!',
-      url: 'http://localhost/Bingo',
+      url: 'http://90.69.40.18/Bingo',
       img: 'assets/img/bingo_banner.png',
       description: 'Bingo online con generador de cartones',
     },
     {
       name: 'Panaper',
-      url: 'http://localhost/Panaper',
+      url: 'http://90.69.40.18/Panaper',
       img: 'assets/img/panaper_banner.png',
       description: 'Web de empresa',
     },
     {
       name: 'Tester',
-      url: 'http://localhost/Tester',
+      url: 'http://90.69.40.18/Tester',
       img: 'assets/img/tester_banner.png',
       description: 'Aplicación para hacer examenes tipo test',
     },
