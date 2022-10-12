@@ -22,10 +22,16 @@ export class MykiProyectsComponent implements OnInit {
       description: 'Aplicación para subir ficheros a mi servidor',
     },
     {
-      name: 'Bingo!',
-      url: 'http://90.69.40.18/Bingo',
+      name: 'Bingo! Angular',
+      url: 'https://mperleo.github.io/BingoAngular/',
       img: 'assets/img/bingo_banner.png',
-      description: 'Bingo online con generador de cartones',
+      description: 'Bingo online con generador de cartones, version creada con Angular',
+    },
+    {
+      name: 'Bingo! PHP',
+      url: 'http://90.69.40.18/Bingo/',
+      img: 'assets/img/bingo_banner.png',
+      description: 'Bingo online con generador de cartones, version creada en lenguaje PHP',
     },
     {
       name: 'Panaper',
