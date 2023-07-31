@@ -11,15 +11,21 @@ export class MykiProyectsComponent implements OnInit {
   public appList: AppModel[] = [
     {
       name: 'Costos',
-      url: 'http://90.69.40.18/Costos',
+      url: '',
       img: 'assets/img/costos_banner.png',
       description: 'Aplicación de fiananzas personales',
     },
     {
       name: 'Droppper',
-      url: 'http://90.69.40.18/Droppper',
+      url: '',
       img: 'assets/img/droppper_banner.png',
       description: 'Aplicación para subir ficheros a mi servidor',
+    },
+    {
+      name: 'Bike Speed Calculator',
+      url: 'https://mperleo.github.io/BikeSpeedCalculator/',
+      img: 'assets/img/bikeSpeed_banner.png',
+      description: 'Calcula el avance y velocidad de pedalada de tu transmisión',
     },
     {
       name: 'Bingo! Angular',
@@ -28,20 +34,14 @@ export class MykiProyectsComponent implements OnInit {
       description: 'Bingo online con generador de cartones, version creada con Angular',
     },
     {
-      name: 'Bingo! PHP',
-      url: 'http://90.69.40.18/Bingo/',
-      img: 'assets/img/bingo_banner.png',
-      description: 'Bingo online con generador de cartones, version creada en lenguaje PHP',
-    },
-    {
       name: 'Panaper',
-      url: 'http://90.69.40.18/Panaper',
+      url: '',
       img: 'assets/img/panaper_banner.png',
       description: 'Web de empresa',
     },
     {
       name: 'Tester',
-      url: 'http://90.69.40.18/Tester',
+      url: '',
       img: 'assets/img/tester_banner.png',
       description: 'Aplicación para hacer examenes tipo test',
     },
