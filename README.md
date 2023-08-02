@@ -12,7 +12,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 to deploy to github pages
-`ng deploy --base-href=https://mperleo.github.io/MykiDashborad/`
+`ng deploy --base-href=https://mperleo.github.io/MykiDashboard/`
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
