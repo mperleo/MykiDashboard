@@ -27,6 +27,24 @@ export class MykiProyectsComponent implements OnInit {
       img: 'assets/img/bingo_banner.jpeg',
       description: 'Simulador de bingo online',
     },
+    {
+      name: 'Bingo PHP',
+      url: 'https://github.com/mperleo/Bingo',
+      img: 'assets/img/bingo_banner.jpeg',
+      description: 'Simulador de bingo online',
+    },
+    {
+      name: 'Tester!',
+      url: 'https://github.com/mperleo/Tester',
+      img: 'assets/img/tester_banner.jpeg',
+      description: 'Aplicación de tipo tests',
+    },
+    {
+      name: 'Droppper',
+      url: 'https://github.com/mperleo/Droppper',
+      img: 'assets/img/droppper_banner.jpeg',
+      description: 'Aplicación de subida de archivos',
+    },
   ];
 
   constructor() {}
