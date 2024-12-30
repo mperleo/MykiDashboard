@@ -22,7 +22,7 @@ export class MykiProyectsComponent implements OnInit {
       description: 'Calculadora de avance y velocidad de pedalada',
     },
     {
-      name: 'Bike Ratios Calculator',
+      name: 'Bike Ratios Grapher (WIP)',
       url: 'https://mperleo.github.io/BikeRatiosCalculator/',
       img: 'assets/img/bikeRatios_banner.jpg',
       description: 'Calculadora de relaciones de marcha, incluye gráficos',
