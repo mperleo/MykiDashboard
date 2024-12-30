@@ -24,7 +24,7 @@ export class MykiProyectsComponent implements OnInit {
     {
       name: 'Bike Ratios Calculator',
       url: 'https://mperleo.github.io/BikeRatiosCalculator/',
-      img: 'assets/img/bikeRatios_banner.jpeg',
+      img: 'assets/img/bikeRatios_banner.jpg',
       description: 'Calculadora de relaciones de marcha, incluye gráficos',
     },
     {
