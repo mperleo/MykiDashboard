@@ -3,4 +3,5 @@ export interface AppModel {
   url : string;
   img : string;
   description : string;
+  tags?: string[]
 }

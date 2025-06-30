@@ -7,26 +7,31 @@
   <div
     class="justify-content-center row row-cols-lg-3 row-cols-md-3 row-cols-sm-2 g-0"
   >
-    <div
-      class="my-3 mx-3"
-      style="max-width: 540px"
-      *ngFor="let app of appList"
-    >
+    <div class="my-3 mx-3" style="max-width: 540px" *ngFor="let app of appList">
       <div class="row g-0 border-card mx-3">
         <div class="col-md-7 align-self-center">
           <img
             src="{{ app.img }}"
-            class="img-fluid text-bg-light "
+            class="img-fluid text-bg-light"
             alt="{{ app.name }} banner"
           />
         </div>
         <div class="col-md-5 border-card-img">
-            <div class="box-title">
-              <a class="a-underline" href="{{ app.url }}"><span class="a-text">{{ app.name }}</span></a>
-            </div>
-            <div>
-              <p class="card-text bio">{{ app.description }}</p>
-            </div>
+          <div class="box-title">
+            <a class="a-underline" href="{{ app.url }}"
+              ><span class="a-text">{{ app.name }}</span></a
+            >
+          </div>
+          <div>
+            <p class="card-text bio">
+              {{ app.description }} <br />
+              <span
+                *ngFor="let tag of app.tags"
+                class="badge text-bg-dark card-text silkscreen"
+                >{{ tag }}</span
+              >
+            </p>
+          </div>
         </div>
       </div>
     </div>
